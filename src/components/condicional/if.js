@@ -10,13 +10,11 @@ export default props => {
 
     if (props.test) {
         return ifChildren
-    } else if(elseChild){
+    } else if (elseChild) {
         return elseChild
     } else {
         return false
     }
-
-
 }
 
 export const Else = props => props.children

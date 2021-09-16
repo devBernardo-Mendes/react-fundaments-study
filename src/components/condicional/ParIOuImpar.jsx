@@ -1,12 +1,12 @@
-import React from 'react' 
+import React from 'react'
 
 export default (props) => {
-    const isPar = props.numero % 2 === 0 
+    const isPar = props.numero % 2 === 0
     return (
         <div>
-            { isPar ? 
-              <span>Par</span> : 
-              <span>Impar</span> 
+            {isPar ?
+                <span>Par</span> :
+                <span>Impar</span>
             }
         </div>
     )

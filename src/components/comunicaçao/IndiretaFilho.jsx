@@ -8,7 +8,7 @@ export default (props) => {
                 filho
             </div>
             <button onClick={
-                function(e){
+                function (e) {
                     props.quantoClicar('joao', 58, true)
                 }
 
